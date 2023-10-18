@@ -14,7 +14,7 @@
     --gray-100: #F5F6FA;
   }
   
-  .gray-color-100{color: var(--gray-100);} 
-  .gray-color-300{color: var(--gray-300);}
-  .gray-color-600{color: var(--gray-600);}
-  .gray-color-900{color: var(--gray-900);}
+  .gray-color-100{color: var(--gray-100, #F5F6FA);} 
+  .gray-color-300{color: var(--gray-300, #C0C3CC);}
+  .gray-color-600{color: var(--gray-600, #787C87);}
+  .gray-color-900{color: var(--gray-900, #0A0B0D);}

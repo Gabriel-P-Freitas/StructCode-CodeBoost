@@ -13,7 +13,7 @@
 }
 
 .hero-text{
-    max-width: 38rem;
+    max-width: 37rem;
 }
 
 .info-hero{
@@ -45,4 +45,23 @@
 
 .text-transformando{
     width: 33.4375rem;
+}
+
+.beneficios-frontend{
+    border-bottom: 1px solid var(--gray-800, #393B42);
+}
+
+.header-domine p{
+    max-width: 25rem;
+}
+
+.background-pink-contraste{
+    background-color: var(--pink-10, #F67ACB);
+}
+
+.preenchimento-contraste{
+    padding: 5.5625rem 16.5rem !important;
+}
+.preenchimento-contraste p{
+    font-size: 1.375rem;
 }

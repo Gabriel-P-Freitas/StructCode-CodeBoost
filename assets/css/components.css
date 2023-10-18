@@ -1,7 +1,6 @@
 .btn-primary{
     background-color: var(--pink-10, #F67ACB);
     padding: 1rem 1.5rem;
-    letter-spacing: -0.03rem;
     line-height: 100%;
     font-weight: 600;
     border-radius: 0.125rem;
@@ -10,10 +9,17 @@
 
 .btn-primary-large{
     padding: 1.4375rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+.btn-primary-contraste{
+    background-color: #FFF;
+    border: none;
 }
 
 .btn-primary:hover{
-    background-color: var(--gray-900, #DFE1E8);
+    background-color: var(--gray-900, #0A0B0D);
+    border: 1px solid var(--gray-500);
     color: var(--pink-10, #F67ACB);
 }
 
@@ -27,17 +33,28 @@ div.components-tranformando{
 }
 
 div.components-tranformando > div{
-    width: 21rem;
+    width: 22rem;
+}
+
+.courses-cards-frontend{
+    gap: 2rem;
 }
 
 div.card-frontend{
     border: 2px solid rgba(255, 255, 255, 0.08);
     background: rgba(255, 255, 255, 0.02);
     padding: 1.5rem;
-    width: 50rem;
+    width: 24rem;
     height: 22.375rem;
+}
+
+.conteudo-card{
+    max-width: 30rem;
+}
 
 
+.HTML-5{
+    flex-grow: 1;
 }
 
 .background-card{
