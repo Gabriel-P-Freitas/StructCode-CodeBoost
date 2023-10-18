@@ -1,0 +1,54 @@
+.btn-primary{
+    background-color: var(--pink-10, #F67ACB);
+    padding: 1rem 1.5rem;
+    letter-spacing: -0.03rem;
+    line-height: 100%;
+    font-weight: 600;
+    border-radius: 0.125rem;
+}
+
+
+.btn-primary-large{
+    padding: 1.4375rem 1.5rem;
+}
+
+.btn-primary:hover{
+    background-color: var(--gray-900, #DFE1E8);
+    color: var(--pink-10, #F67ACB);
+}
+
+img.transformando-ideias{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+div.components-tranformando{
+    width: 24rem;
+}
+
+div.components-tranformando > div{
+    width: 21rem;
+}
+
+div.card-frontend{
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1.5rem;
+    width: 50rem;
+    height: 22.375rem;
+
+
+}
+
+.background-card{
+    width: 100%;
+    height: 5.5rem;
+    background: url("../imgs/Frame.svg") no-repeat center;
+    background-size: contain;
+}
+
+.btn-card{
+    padding: 0.5rem 1.375rem;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 6.25rem;
+}

@@ -1,0 +1,48 @@
+.header{
+    height: 5.5rem;
+    padding: 1.25rem 0;
+}
+
+.hero{
+    padding-top: 7rem;
+}
+
+.destaque-title{
+    max-width: 48rem;
+    background: url("../imgs/Vector\ 190\ \(Stroke\).svg") no-repeat bottom center;
+}
+
+.hero-text{
+    max-width: 38rem;
+}
+
+.info-hero{
+    position: relative;
+}
+
+.img-hero{
+    position: absolute;
+    left: 3.4375rem;
+    top: 100%;
+}
+
+.img-hero-desktop{
+    height: 37.0625rem;
+    position: relative;
+    align-items: flex-end;
+}
+
+.img-desktop{
+    position: absolute;
+
+    z-index: 1;
+}
+
+.block-pink{
+    height: 13.75rem;
+    background-color: var(--pink-10, #F67ACB);
+}
+
+.text-transformando{
+    width: 33.4375rem;
+}
