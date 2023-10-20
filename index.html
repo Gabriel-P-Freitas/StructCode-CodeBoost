@@ -17,17 +17,16 @@
 </head>
 <body>
     <div class="container">
-        <header class="background">
+        <header class="background struct-global">
             <div class="header center flex-row align-center justify-between">
                 <img class="logo" src="assets/imgs/Vector.svg" alt="">
 
                 <nav class="nav-header">
                     <ul class="flex-row align-center gc-5">
-                        <li><a class="link-header transition-ease-in gray-color-100" href="">Home</a></li>
-                        <li><a class="link-header transition-ease-in gray-color-100" href="">Galeria</a></li>
-                        <li><a class="link-header transition-ease-in gray-color-100" href="">Diferenciais</a></li>
+                        <li><a class="nav-link transition-ease-in gray-color-100" href="">Home</a></li>
+                        <li><a class="nav-link transition-ease-in gray-color-100" href="">Galeria</a></li>
+                        <li><a class="nav-link transition-ease-in gray-color-100" href="">Diferenciais</a></li>
                         <li><button ><a href="" class="btn-primary transition-ease-in gray-color-900">Entrar em contato</a></button></li>
-
                     </ul>
                 </nav>
 
@@ -59,8 +58,8 @@
                 <div class="img-hero-desktop flex-row justify-center">
                     
                     <picture class="img-desktop totalmente-100 flex-row justify-center">
-                        <img src="assets/imgs/Dekstop.svg" alt="">
-                        <source srcset="assets/imgs/Vector.png" media="(max-width: 576px)">
+                        <source srcset="assets/imgs/Mobile.svg" media="screen and (max-device-width: 576px)"> <!-- Imagem do BreakPoint -->
+                        <img src="assets/imgs/Dekstop.svg" alt=""> <!-- Imagem Padrão (Desktop) -->
                     </picture>
                     
                     <div class="block-pink totalmente-100"></div>
@@ -203,23 +202,90 @@
 
         </main>
 
-        <footer class="center pt-6 pb-6">
-            <section>
-                <div class="">
+        <footer class="center pt-6 pb-6 struct-global">
+
+            <section class="pb-7">
+
+                <div class="flex-row justify-between">
                     <figure>
                         <img class="pb-3" src="assets/imgs/Vector.svg" alt="" l>
                         <figcaption>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </figcaption>
                     </figure>
 
+                    <article class="flex-column gr-3">
+                        <header>
+                            <p class="gray-color-100">Lista de páginas</p>
+                        </header>
+                        <nav>
+                            <ul class="flex-column">
+                                <li><a class="nav-link transition-ease-in" href="">Home</a></li>
+                                <li><a class="nav-link transition-ease-in" href="">Diferenciais</a></li>
+                                <li><a class="nav-link transition-ease-in" href="">Galeria</a></li>
+                            </ul>
+                        </nav>
 
+                    </article>
+
+                    <article class="flex-column gr-3">
+                        <header>
+                            <p class="gray-color-100">Soluções</p>
+                        </header>
+                        <nav>
+                            <ul class="flex-column">
+                                <li><a class="nav-link transition-ease-in" href="">Texto link 01</a></li>
+                                <li><a class="nav-link transition-ease-in" href="">Texto link 02</a></li>
+                                <li><a class="nav-link transition-ease-in" href="">Texto link 03</a></li>
+                            </ul>
+                        </nav>
+
+                    </article>
+
+                    <article class="flex-column gr-3">
+                        <header>
+                            <p class="gray-color-100">Contato</p>
+                        </header>
+                        <nav>
+                            <ul class="flex-column">
+                                <li><a class="nav-link transition-ease-in" href="">Texto link 01</a></li>
+                                <li><a class="nav-link transition-ease-in" href="">Texto link 02</a></li>
+                            </ul>
+                        </nav>
+
+                    </article>
+
+                    <article class="flex-column gr-3">
+                        <header>
+                            <p class="gray-color-100">Nossas redes sociais</p>
+                        </header>
+                        <nav>
+                            <ul class="flex-column">
+                                <li class="flex-row align-center gc-2">
+                                    <img src="assets/imgs/Instagram.svg" alt="">
+                                    <a class="nav-link transition-ease-in" href="">Instagram</a>
+                                </li>
+                                <li class="flex-row align-center gc-2">
+                                    <img src="assets/imgs/Linkedin.svg" alt="">
+                                    <a class="nav-link transition-ease-in" href="">Linkedin</a>
+                                </li>
+                                <li class="flex-row align-center gc-2">
+                                    <img src="assets/imgs/YouTube.svg" alt="">
+                                    <a class="nav-link transition-ease-in" href="">YouTube</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </article>
                 </div>
+
             </section>
 
             <section>
 
+                <div class="border-top-copyright pt-3">
+                    <p>2023 © Todos os direitos reservados. Codeboost</p>
+                </div>
+
             </section>
-
-
         </footer>
 
 

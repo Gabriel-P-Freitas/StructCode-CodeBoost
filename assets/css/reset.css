@@ -5,7 +5,7 @@
     color: var(--gray-600);
 }
 
-html{
+body{
     font-family: 'Inter', sans-serif;
     background: linear-gradient(89deg, #000205 -10.97%, #000205 116.69%);
 }
@@ -160,7 +160,7 @@ button{
     height: 100%;
 }
 
-.nav-header a.link-header:hover{
+.struct-global nav a.nav-link:hover{
     color: var(--pink-10, #F67ACB);
     border-bottom: 1px solid var(--gray-100, #F5F6FA);
 }
