@@ -34,6 +34,11 @@ button{
     flex-direction: column;
 }
 
+.inline-flex{
+    display: inline-flex;
+    max-width: max-content;
+}
+
 .justify-between{
     justify-content: space-between;
 }
@@ -58,8 +63,9 @@ button{
 }
 
 .center{
-    padding-left: 7rem !important;
-    padding-right: 7rem !important;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 86%;
     max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
@@ -153,6 +159,12 @@ button{
 
 .transition-ease-in{
     transition: all 0.3s ease-in;
+    border: transparent 1px solid;
+    cursor: pointer;
+}
+
+.transform-hover:hover{
+    transform: scale(1.02);
 }
 
 .totalmente-100{

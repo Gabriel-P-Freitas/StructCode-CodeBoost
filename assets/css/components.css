@@ -37,24 +37,36 @@ div.components-tranformando > div{
 }
 
 .courses-cards-frontend{
-    gap: 2rem;
 }
 
-div.card-frontend{
+.card-frontend{
     border: 2px solid rgba(255, 255, 255, 0.08);
     background: rgba(255, 255, 255, 0.02);
     padding: 1.5rem;
-    width: 24rem;
     height: 22.375rem;
+    width: 66.66666667%;
 }
 
-.conteudo-card{
-    max-width: 30rem;
+.col-8{
+    flex: 1 0 0%;
+    min-width: 66.66666667%;
+}
+
+.col-4{
+    flex: 1 0 0%;
+    min-width: 33.33333333%;    
+}
+
+.col-auto{
+    flex: 1 0 0%;    
+}
+
+.card-frontend > .conteudo-card p{
+    max-width: 60%;
 }
 
 
 .HTML-5{
-    flex-grow: 1;
 }
 
 .background-card{
