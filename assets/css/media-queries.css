@@ -1,4 +1,11 @@
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+
+    .insights-reality {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
 
 @media screen and (max-width: 768px) {
     .header>.nav-header {

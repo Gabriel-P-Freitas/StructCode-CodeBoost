@@ -44,8 +44,14 @@
 }
 
 .text-transformando {
-    width: 33.4375rem;
+    max-width: 33.4375rem;
+
 }
+
+.insights-reality {
+    row-gap: 48px;
+}
+
 
 .beneficios-frontend {
     border-bottom: 1px solid var(--gray-800, #393B42);
