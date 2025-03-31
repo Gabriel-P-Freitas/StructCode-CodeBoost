@@ -31,11 +31,12 @@ div.components-tranformando {
   width: 24rem;
 }
 
-
 .courses-cards-frontend,
-.col-cards-frontend {
-  gap: 24px;
+.col-cards-frontend,
+.row-cards-frontend {
+  gap: 1.5rem !important;
 }
+
 
 
 
@@ -44,20 +45,15 @@ div.components-tranformando {
   background: rgba(255, 255, 255, 0.02);
   padding: 1.5rem;
   height: 22.375rem;
-  flex: 1;
-}
-
-.col-8 {
-  flex: auto 0 0;
 }
 
 
 /* .col-4 {
   flex: 1 0 auto;
   min-width: calc(1408px / 3);
-  /* min-width: 33.33333334%; */
+  /* min-width: 33.33333334%; 
 }
-
+*/
 */ .col-auto {
   flex: 1 0 0%;
 }

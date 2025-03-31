@@ -1,10 +1,43 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+    .courses-cards-frontend {
+        flex-wrap: wrap;
+    }
 
+    .card-frontend {
+        width: 100%;
+    }
+
+    .col-cards-frontend:nth-child(2) {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 992px) {
     .insights-reality {
         flex-direction: column;
         align-items: center;
     }
 
+    .col-cards-frontend:nth-child(2),
+    .row-cards-frontend {
+        flex-direction: column;
+    }
+
+    .card-frontend>.conteudo-card p {
+        max-width: 100%;
+    }
+
+    .header-domine {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 1.5rem;
+    }
+
+    .header-domine>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
