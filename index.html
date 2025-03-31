@@ -1,316 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minicurso WebDesign</title>
-    <link rel="stylesheet" href="assets/css/variables.css">
-    <link rel="stylesheet" href="assets/css/typograph.css">
-    <link rel="stylesheet" href="assets/css/components.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/typograph.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/media-queries.css" />
+  </head>
+  <body>
     <div class="container">
-        <header class="background struct-global">
-            <div class="header center flex-row align-center justify-between">
-                <img class="logo" src="assets/imgs/Vector.svg" alt="">
+      <header class="background struct-global">
+        <div class="header center flex-row align-center justify-between">
+          <img class="logo" src="assets/imgs/Vector.svg" alt="" />
 
-                <nav class="nav-header">
-                    <ul class="flex-row align-center gc-5">
-                        <li><a class="nav-link transition-ease-in gray-color-100" href="">Home</a></li>
-                        <li><a class="nav-link transition-ease-in gray-color-100" href="">Galeria</a></li>
-                        <li><a class="nav-link transition-ease-in gray-color-100" href="">Diferenciais</a></li>
-                        <li><button ><a href="" class="btn-primary transition-ease-in gray-color-900">Entrar em contato</a></button></li>
-                    </ul>
-                </nav>
+          <nav class="nav-header">
+            <ul class="flex-row align-center gc-4">
+              <li>
+                <a class="nav-link transition-ease-in gray-color-100" href=""
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="nav-link transition-ease-in gray-color-100" href=""
+                  >Galeria</a
+                >
+              </li>
+              <li>
+                <a class="nav-link transition-ease-in gray-color-100" href=""
+                  >Diferenciais</a
+                >
+              </li>
+              <li>
+                <button>
+                  <a
+                    href=""
+                    class="btn-primary transition-ease-in gray-color-900"
+                    >Entrar em contato</a
+                  >
+                </button>
+              </li>
+            </ul>
+          </nav>
 
+          <nav class="hidden">
+            <ul>
+              <li>
+                <button>
+                  <img src="assets/imgs/tooLBar.svg" alt="" />
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="">
+          <div class="hero center pb-7">
+            <div class="flex-column align-center">
+              <div class="info-hero flex-column align-center gr-3">
+                <div class="destaque-title text-center">
+                  <h1>Front-end descomplicado e direto ao ponto!</h1>
+                </div>
+                <p class="hero-text large-font text-center pt-3 gray-color-300">
+                  Aprenda a desenvolver interfaces modernas e de alta qualidade
+                  com quem está na área atuando com projetos altamente
+                  renomados.
+                </p>
+                <img class="img-hero" src="assets/imgs/Arrow 6.svg" alt="" />
+              </div>
+
+              <button class="pt-4">
+                <a
+                  href=""
+                  class="btn-primary btn-primary-large transition-ease-in large-font gray-color-900"
+                  >Fazer parte da lista de espera</a
+                >
+              </button>
+            </div>
+          </div>
+
+          <div class="img-hero-desktop flex-row justify-center">
+            <picture class="img-desktop flex-row justify-center">
+              <source
+                srcset="assets/imgs/Mobile.svg"
+                media="screen and (max-width: 576px)"
+              />
+              <!-- Imagem do BreakPoint -->
+              <img
+                class="totalmente-100"
+                src="assets/imgs/Dekstop.svg"
+                alt=""
+              />
+              <!-- Imagem Padrão (Desktop) -->
+            </picture>
+
+            <div class="block-pink totalmente-100"></div>
+          </div>
+        </section>
+
+        <section>
+          <div class="beneficios-frontend flex-column espacamento-y center">
+            <h3 class="text-transformando align-self-center text-center pb-7">
+              Transformando Ideias em Realidade Digital!
+            </h3>
+
+            <div class="flex-row justify-between">
+              <div class="components-tranformando flex-column gr-2">
+                <img
+                  class="transformando-ideias"
+                  src="assets/imgs/Face id.svg"
+                  alt=""
+                />
+
+                <div class="flex-column">
+                  <h6 class="pb-1 pt-2">Impacto Visual Imbatível</h6>
+                  <p class="large-font">
+                    Domine a arte de criar interfaces envolventes que conquistam
+                    <br />
+                    corações e mentes dos usuários.
+                  </p>
+                </div>
+              </div>
+
+              <div class="components-tranformando flex-column gr-2">
+                <img
+                  class="transformando-ideias"
+                  src="assets/imgs/Group 2.svg"
+                  alt=""
+                />
+
+                <div class="flex-column">
+                  <h6 class="pb-1 pt-2">Navegabilidade sem Limites</h6>
+                  <p class="large-font">
+                    Construa a base sólida para uma experiência de usuário
+                    fluida e intuitiva, garantindo a satisfação do público.
+                  </p>
+                </div>
+              </div>
+
+              <div class="components-tranformando flex-column gr-2">
+                <img
+                  class="transformando-ideias"
+                  src="assets/imgs/Group.svg"
+                  alt=""
+                />
+
+                <div class="flex-column">
+                  <h6 class="pb-1 pt-2">Performance Acelerada</h6>
+                  <p class="large-font">
+                    O Front End é a chave para otimizar o desempenho do seu
+                    site, cativando visitantes com velocidade e eficiência.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="dominio-frontend espacamento-y center">
+            <div
+              class="header-domine flex-row align-center justify-between pb-7"
+            >
+              <div class="">
+                <h3 class="pb-2">Domine a Arte da Front-end</h3>
+                <p class="large">
+                  Prepare-se para criar interfaces incríveis e funcionais para a
+                  web com este curso completo de front-end.
+                </p>
+              </div>
+
+              <p class="large">
+                Junte-se a nós neste curso de front-end e embarque em uma
+                jornada emocionante para se tornar um desenvolvedor web
+                altamente qualificado.
+              </p>
             </div>
 
-        </header>
-
-        <main>
-            <section class="">
-                <div class="hero center pb-7">
-                    <div class="flex-column align-center">
-                        <div class="info-hero flex-column align-center gr-3">
-                            <div class="destaque-title text-center">
-                                <h1>Front-end descomplicado e direto ao ponto!</h1>
-                            </div>
-                            <p class="hero-text large-font text-center pt-3 gray-color-300">Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
-                            <img class="img-hero" src="assets/imgs/Arrow 6.svg" alt="">
-                        </div>
-
-                        <button class="pt-4">
-                            <a href="" class="btn-primary btn-primary-large transition-ease-in large-font gray-color-900">Fazer parte da lista de espera</a>
-                        </button>
-
-                    </div>
-                    
-
-                </div>
-
-                <div class="img-hero-desktop flex-row justify-center">
-                    
-                    <picture class="img-desktop totalmente-100 flex-row justify-center">
-                        <source srcset="assets/imgs/Mobile.svg" media="screen and (max-device-width: 576px)"> <!-- Imagem do BreakPoint -->
-                        <img src="assets/imgs/Dekstop.svg" alt=""> <!-- Imagem Padrão (Desktop) -->
-                    </picture>
-                    
-                    <div class="block-pink totalmente-100"></div>
-                </div>
-
-
-            </section>
-
-            <section>
-                <div class="beneficios-frontend flex-column espacamento-y center">
-                    <h3 class="text-transformando align-self-center text-center pb-7">Transformando Ideias em Realidade Digital!</h3>
-
-                    <div class="flex-row justify-between">
-                        <div class="components-tranformando flex-column gr-2">
-                            <img class="transformando-ideias" src="assets/imgs/Face id.svg" alt="">
-                    
-                            <div class="flex-column">
-                                <h6 class="pb-1 pt-2">Impacto Visual Imbatível</h6>
-                                <p class="large-font">Domine a arte de criar interfaces envolventes que conquistam <br> corações e mentes dos usuários.</p>
-                            </div>
-                    
-                        </div>
-
-                        <div class="components-tranformando flex-column gr-2">
-                            <img class="transformando-ideias" src="assets/imgs/Group 2.svg" alt="">
-                    
-                            <div class="flex-column">
-                                <h6 class="pb-1 pt-2">Navegabilidade sem Limites</h6>
-                                <p class="large-font">Construa a base sólida para uma experiência de usuário fluida e intuitiva, garantindo a satisfação do público.</p>
-                            </div>
-                    
-                        </div>
-
-                        <div class="components-tranformando flex-column gr-2">
-                            <img class="transformando-ideias" src="assets/imgs/Group.svg" alt="">
-                    
-                            <div class="flex-column">
-                                <h6 class="pb-1 pt-2">Performance Acelerada</h6>
-                                <p class="large-font">O Front End é a chave para otimizar o desempenho do seu site, cativando visitantes com velocidade e eficiência.</p>
-                            </div>
-                    
-                        </div>
-                    </div>
-                    
-                </div>
-
-
-            </section>
-
-            <section>
-                <div class="dominio-frontend espacamento-y center">
-                    <div class="header-domine flex-row align-center justify-between pb-7">
-                        <div class="">
-                            <h3 class="pb-2">Domine a Arte da Front-end</h3>
-                            <p class="large">Prepare-se para criar interfaces incríveis e funcionais para a web com este curso completo de front-end.</p>
-                        </div>
-
-                        <p class="large">Junte-se a nós neste curso de front-end e embarque em uma jornada emocionante para se tornar um desenvolvedor web altamente qualificado.</p>
-
-                    </div>
-
-                    <div class="courses-cards-frontend flex-row flex-wrap">
-
-                        <a class="card-frontend col-8 flex-column justify-between transition-ease-in transform-hover" href="">
-                            
-                            <button class="btn-card inline-flex transition-ease-in">FUNDAMENTOS</button>
-
-                            <span class="background-card"></span>
-
-                            <article class="conteudo-card">
-                                <header>
-                                    <h6 class="pb-1">HTML5 e Semântica</h6>
-                                </header>
-                                <p>Aprenda a usar a mais recente versão do HTML e crie páginas web bem estruturadas e otimizadas para os mecanismos de busca.</p>
-                            </article>
-                    
-                        </a>
-
-                        <a class="card-frontend col-4 flex-column justify-between transition-ease-in transform-hover" href="">
-                            
-                            <button class="btn-card inline-flex transition-ease-in">FUNDAMENTOS</button>
-
-                            <span class="background-card"></span>
-
-                            <article class="conteudo-card">
-                                <header>
-                                    <h6 class="pb-1">HTML5 e Semântica</h6>
-                                </header>
-                                <p>Aprenda a usar a mais recente versão do HTML e crie páginas web bem estruturadas e otimizadas para os mecanismos de busca.</p>
-                            </article>
-                    
-                        </a>
-                         
-                        
-                        <a class="card-frontend col-4 flex-column justify-between transition-ease-in transform-hover" href="">
-                        
-                            <button class="btn-card inline-flex transition-ease-in">FUNDAMENTOS</button>
-
-                            <span class="background-card"></span>
-
-                            <article class="conteudo-card">
-                                <header>
-                                    <h6 class="pb-1">HTML5 e Semântica</h6>
-                                </header>
-                                <p>Aprenda a usar a mais recente versão do HTML e crie páginas web bem estruturadas e otimizadas para os mecanismos de busca.</p>
-                            </article>
-                    
-                        </a>
-                        <a class="card-frontend col-4 flex-column justify-between transition-ease-in transform-hover" href="">
-                        
-                            <button class="btn-card inline-flex transition-ease-in">FUNDAMENTOS</button>
-
-                            <span class="background-card"></span>
-
-                            <article class="conteudo-card">
-                                <header>
-                                    <h6 class="pb-1">HTML5 e Semântica</h6>
-                                </header>
-                                <p>Aprenda a usar a mais recente versão do HTML e crie páginas web bem estruturadas e otimizadas para os mecanismos de busca.</p>
-                            </article>
-                    
-                        </a>
-                        <a class="card-frontend col-4 flex-column justify-between transition-ease-in transform-hover" href="">
-                        
-                            <button class="btn-card inline-flex transition-ease-in">FUNDAMENTOS</button>
-
-                            <span class="background-card"></span>
-
-                            <article class="conteudo-card">
-                                <header>
-                                    <h6 class="pb-1">HTML5 e Semântica</h6>
-                                </header>
-                                <p>Aprenda a usar a mais recente versão do HTML e crie páginas web bem estruturadas e otimizadas para os mecanismos de busca.</p>
-                            </article>
-                    
-                        </a>
-                    </div>
-
-
-                </div>
-
-
-
-            </section>
-
-            <section class="background-pink-contraste">
-                <div class="section-contraste center text-center">
-                    <div class="preenchimento-contraste">
-                        <h2 class="pb-2">Front-end descomplicado e direto ao ponto!</h2>
-
-                        <p class="pb-3 gray-color-100">Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
-
-                        <button ><a href="" class="btn-primary btn-primary-contraste btn-primary-large transition-ease-in gray-color-900">Fazer parte da lista de espera</a></button>
-                    </div>
-                </div>
-
-
-            </section>
-
-        </main>
-
-        <footer class="center pt-6 pb-6 struct-global">
-
-            <section class="pb-7">
-
-                <div class="flex-row justify-between">
-                    <figure>
-                        <img class="pb-3" src="assets/imgs/Vector.svg" alt="" l>
-                        <figcaption>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </figcaption>
-                    </figure>
-
-                    <article class="flex-column gr-3">
-                        <header>
-                            <p class="gray-color-100">Lista de páginas</p>
-                        </header>
-                        <nav>
-                            <ul class="flex-column">
-                                <li><a class="nav-link transition-ease-in" href="">Home</a></li>
-                                <li><a class="nav-link transition-ease-in" href="">Diferenciais</a></li>
-                                <li><a class="nav-link transition-ease-in" href="">Galeria</a></li>
-                            </ul>
-                        </nav>
-
+            <div class="courses-cards-frontend flex-row">
+              <div class="col-cards-frontend flex-column gc-3 w-max">
+                <a
+                  class="card-frontend flex-auto flex-column justify-between transition-ease-in transform-hover"
+                  href=""
+                >
+                  <button class="btn-card inline-flex transition-ease-in">
+                    FUNDAMENTOS
+                  </button>
+                  <span class="background-card"></span>
+                  <article class="conteudo-card">
+                    <header>
+                      <h6 class="pb-1">HTML5 e Semântica</h6>
+                    </header>
+                    <p>
+                      Aprenda a usar a mais recente versão do HTML e crie
+                      páginas web bem estruturadas e otimizadas para os
+                      mecanismos de busca.
+                    </p>
+                  </article>
+                </a>
+                <div class="flex-row gc-3">
+                  <a
+                    class="card-frontend flex-column justify-between transition-ease-in transform-hover"
+                    href=""
+                  >
+                    <button class="btn-card inline-flex transition-ease-in">
+                      POTENCIALIZANDO
+                    </button>
+                    <span class="background-card"></span>
+                    <article class="conteudo-card">
+                      <header>
+                        <h6 class="pb-1">Javascript Moderno</h6>
+                      </header>
+                      <p>
+                        Aprenda a programar com Javascript moderno e torne suas
+                        páginas interativas e dinâmicas, proporcionando uma
+                        experiência única .
+                      </p>
                     </article>
-
-                    <article class="flex-column gr-3">
-                        <header>
-                            <p class="gray-color-100">Soluções</p>
-                        </header>
-                        <nav>
-                            <ul class="flex-column">
-                                <li><a class="nav-link transition-ease-in" href="">Texto link 01</a></li>
-                                <li><a class="nav-link transition-ease-in" href="">Texto link 02</a></li>
-                                <li><a class="nav-link transition-ease-in" href="">Texto link 03</a></li>
-                            </ul>
-                        </nav>
-
+                  </a>
+                  <a
+                    class="card-frontend flex-column justify-between transition-ease-in transform-hover"
+                    href=""
+                  >
+                    <button class="btn-card inline-flex transition-ease-in">
+                      APLICAÇÕES
+                    </button>
+                    <span class="background-card"></span>
+                    <article class="conteudo-card">
+                      <header>
+                        <h6 class="pb-1">Frameworks Front-end</h6>
+                      </header>
+                      <p>
+                        Descubra como utilizar frameworks populares como React,
+                        Angular e Vue.js para criar aplicações web completas e
+                        eficientes.
+                      </p>
                     </article>
-
-                    <article class="flex-column gr-3">
-                        <header>
-                            <p class="gray-color-100">Contato</p>
-                        </header>
-                        <nav>
-                            <ul class="flex-column">
-                                <li><a class="nav-link transition-ease-in" href="">Texto link 01</a></li>
-                                <li><a class="nav-link transition-ease-in" href="">Texto link 02</a></li>
-                            </ul>
-                        </nav>
-
-                    </article>
-
-                    <article class="flex-column gr-3">
-                        <header>
-                            <p class="gray-color-100">Nossas redes sociais</p>
-                        </header>
-                        <nav>
-                            <ul class="flex-column">
-                                <li class="flex-row align-center gc-2">
-                                    <img src="assets/imgs/Instagram.svg" alt="">
-                                    <a class="nav-link transition-ease-in" href="">Instagram</a>
-                                </li>
-                                <li class="flex-row align-center gc-2">
-                                    <img src="assets/imgs/Linkedin.svg" alt="">
-                                    <a class="nav-link transition-ease-in" href="">Linkedin</a>
-                                </li>
-                                <li class="flex-row align-center gc-2">
-                                    <img src="assets/imgs/YouTube.svg" alt="">
-                                    <a class="nav-link transition-ease-in" href="">YouTube</a>
-                                </li>
-                            </ul>
-                        </nav>
-
-                    </article>
+                  </a>
                 </div>
+              </div>
 
-            </section>
+              <div class="col-cards-frontend flex-column gc-2">
+                <a
+                  class="card-frontend flex-column justify-between transition-ease-in transform-hover"
+                  href=""
+                >
+                  <button class="btn-card inline-flex transition-ease-in">
+                    ESTILIZADO
+                  </button>
+                  <span class="background-card"></span>
+                  <article class="conteudo-card">
+                    <header>
+                      <h6 class="pb-1">CSS3 e Estilização Avançada</h6>
+                    </header>
+                    <p>
+                      Explore os recursos avançados do CSS3 para criar layouts
+                      responsivos, animações incríveis e designs atrativos.
+                    </p>
+                  </article>
+                </a>
+                <a
+                  class="card-frontend flex-column justify-between transition-ease-in transform-hover"
+                  href=""
+                >
+                  <button class="btn-card inline-flex transition-ease-in">
+                    DESIGNS
+                  </button>
+                  <span class="background-card"></span>
+                  <article class="conteudo-card">
+                    <header>
+                      <h6 class="pb-1">Design Responsivo</h6>
+                    </header>
+                    <p>
+                      Aprenda a criar designs responsivos e mobile-first que se
+                      adaptam perfeitamente a diferentes tamanhos de tela.
+                    </p>
+                  </article>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <section>
+        <section class="background-pink-contraste">
+          <div class="section-contraste center text-center">
+            <div class="preenchimento-contraste">
+              <h2 class="pb-2">Front-end descomplicado e direto ao ponto!</h2>
 
-                <div class="border-top-copyright pt-3">
-                    <p>2023 © Todos os direitos reservados. Codeboost</p>
-                </div>
+              <p class="pb-3 gray-color-100">
+                Aprenda a desenvolver interfaces modernas e de alta qualidade
+                com quem está na área atuando com projetos altamente renomados.
+              </p>
 
-            </section>
-        </footer>
+              <button>
+                <a
+                  href=""
+                  class="btn-primary btn-primary-contraste btn-primary-large transition-ease-in gray-color-900"
+                  >Fazer parte da lista de espera</a
+                >
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
 
+      <footer class="center pt-6 pb-6 struct-global">
+        <section class="pb-7">
+          <div class="flex-row justify-between">
+            <figure>
+              <img class="pb-3" src="assets/imgs/Vector.svg" alt="" l />
+              <figcaption>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's
+              </figcaption>
+            </figure>
 
+            <article class="flex-column gr-3">
+              <header>
+                <p class="gray-color-100">Lista de páginas</p>
+              </header>
+              <nav>
+                <ul class="flex-column">
+                  <li>
+                    <a class="nav-link transition-ease-in" href="">Home</a>
+                  </li>
+                  <li>
+                    <a class="nav-link transition-ease-in" href=""
+                      >Diferenciais</a
+                    >
+                  </li>
+                  <li>
+                    <a class="nav-link transition-ease-in" href="">Galeria</a>
+                  </li>
+                </ul>
+              </nav>
+            </article>
 
+            <article class="flex-column gr-3">
+              <header>
+                <p class="gray-color-100">Soluções</p>
+              </header>
+              <nav>
+                <ul class="flex-column">
+                  <li>
+                    <a class="nav-link transition-ease-in" href=""
+                      >Texto link 01</a
+                    >
+                  </li>
+                  <li>
+                    <a class="nav-link transition-ease-in" href=""
+                      >Texto link 02</a
+                    >
+                  </li>
+                  <li>
+                    <a class="nav-link transition-ease-in" href=""
+                      >Texto link 03</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </article>
 
+            <article class="flex-column gr-3">
+              <header>
+                <p class="gray-color-100">Contato</p>
+              </header>
+              <nav>
+                <ul class="flex-column">
+                  <li>
+                    <a class="nav-link transition-ease-in" href=""
+                      >Texto link 01</a
+                    >
+                  </li>
+                  <li>
+                    <a class="nav-link transition-ease-in" href=""
+                      >Texto link 02</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </article>
+
+            <article class="flex-column gr-3">
+              <header>
+                <p class="gray-color-100">Nossas redes sociais</p>
+              </header>
+              <nav>
+                <ul class="flex-column">
+                  <li class="flex-row align-center gc-2">
+                    <img src="assets/imgs/Instagram.svg" alt="" />
+                    <a class="nav-link transition-ease-in" href="">Instagram</a>
+                  </li>
+                  <li class="flex-row align-center gc-2">
+                    <img src="assets/imgs/Linkedin.svg" alt="" />
+                    <a class="nav-link transition-ease-in" href="">Linkedin</a>
+                  </li>
+                  <li class="flex-row align-center gc-2">
+                    <img src="assets/imgs/YouTube.svg" alt="" />
+                    <a class="nav-link transition-ease-in" href="">YouTube</a>
+                  </li>
+                </ul>
+              </nav>
+            </article>
+          </div>
+        </section>
+
+        <section>
+          <div class="border-top-copyright pt-3">
+            <p>2023 © Todos os direitos reservados. Codeboost</p>
+          </div>
+        </section>
+      </footer>
     </div>
-    
-</body>
+  </body>
 </html>

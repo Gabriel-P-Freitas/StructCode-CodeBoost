@@ -1,0 +1,21 @@
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+    .header>.nav-header {
+        display: none;
+    }
+
+    .header>.hidden {
+        display: block;
+    }
+
+    .info-hero>.img-hero {
+        left: 8px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .info-hero>.img-hero {
+        display: none;
+    }
+}

@@ -1,83 +1,85 @@
-.header{
+.header {
     height: 5.5rem;
     padding: 1.25rem 0;
 }
 
-.hero{
+.hero {
     padding-top: 7rem;
 }
 
-.destaque-title{
+.destaque-title {
     max-width: 48rem;
     background: url("../imgs/Vector\ 190\ \(Stroke\).svg") no-repeat bottom center;
 }
 
-.hero-text{
+.hero-text {
     max-width: 37rem;
 }
 
-.info-hero{
+.info-hero {
     position: relative;
 }
 
-.img-hero{
+.img-hero {
     position: absolute;
-    left: 3.4375rem;
+    left: 3rem;
     top: 100%;
 }
 
-.img-hero-desktop{
+.img-hero-desktop {
     height: 37.0625rem;
     position: relative;
     align-items: flex-end;
 }
 
-.img-desktop{
+.img-desktop {
     position: absolute;
 
     z-index: 1;
 }
 
-.block-pink{
+.block-pink {
     height: 13.75rem;
     background-color: var(--pink-10, #F67ACB);
 }
 
-.text-transformando{
+.text-transformando {
     width: 33.4375rem;
 }
 
-.beneficios-frontend{
+.beneficios-frontend {
     border-bottom: 1px solid var(--gray-800, #393B42);
 }
 
-.header-domine p{
+.header-domine p {
     max-width: 25rem;
 }
 
-.background-pink-contraste{
+.background-pink-contraste {
     background-color: var(--pink-10, #F67ACB);
 }
 
-.preenchimento-contraste{
+.preenchimento-contraste {
     padding: 5.5625rem 16.5rem !important;
 }
-.preenchimento-contraste p{
+
+.preenchimento-contraste p {
     font-size: 1.375rem;
 }
 
-footer figure figcaption{
+footer figure figcaption {
     max-width: 17.875rem;
 }
 
-footer article header{
+footer article header {
     font-weight: 600;
 }
 
-footer article, footer article ul{
+footer article,
+footer article ul {
     row-gap: 32px;
 }
 
-.border-top-copyright{
+.border-top-copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.24);
 }
