@@ -297,7 +297,9 @@
 
         <section class="background-pink-contraste">
           <div class="section-contraste center text-center">
-            <div class="preenchimento-contraste">
+            <div
+              class="preenchimento-contraste flex-column align-center justify-center"
+            >
               <h2 class="pb-2">Front-end descomplicado e direto ao ponto!</h2>
 
               <p class="pb-3 gray-color-100">
@@ -319,7 +321,7 @@
 
       <footer class="center pt-6 pb-6 struct-global">
         <section class="pb-7">
-          <div class="flex-row justify-between">
+          <div class="flex-row justify-between gc-3">
             <figure>
               <img class="pb-3" src="assets/imgs/Vector.svg" alt="" l />
               <figcaption>
@@ -328,99 +330,110 @@
               </figcaption>
             </figure>
 
-            <article class="flex-column gr-3">
-              <header>
-                <p class="gray-color-100">Lista de páginas</p>
-              </header>
-              <nav>
-                <ul class="flex-column">
-                  <li>
-                    <a class="nav-link transition-ease-in" href="">Home</a>
-                  </li>
-                  <li>
-                    <a class="nav-link transition-ease-in" href=""
-                      >Diferenciais</a
-                    >
-                  </li>
-                  <li>
-                    <a class="nav-link transition-ease-in" href="">Galeria</a>
-                  </li>
-                </ul>
-              </nav>
-            </article>
-
-            <article class="flex-column gr-3">
-              <header>
-                <p class="gray-color-100">Soluções</p>
-              </header>
-              <nav>
-                <ul class="flex-column">
-                  <li>
-                    <a class="nav-link transition-ease-in" href=""
-                      >Texto link 01</a
-                    >
-                  </li>
-                  <li>
-                    <a class="nav-link transition-ease-in" href=""
-                      >Texto link 02</a
-                    >
-                  </li>
-                  <li>
-                    <a class="nav-link transition-ease-in" href=""
-                      >Texto link 03</a
-                    >
-                  </li>
-                </ul>
-              </nav>
-            </article>
-
-            <article class="flex-column gr-3">
-              <header>
-                <p class="gray-color-100">Contato</p>
-              </header>
-              <nav>
-                <ul class="flex-column">
-                  <li>
-                    <a class="nav-link transition-ease-in" href=""
-                      >Texto link 01</a
-                    >
-                  </li>
-                  <li>
-                    <a class="nav-link transition-ease-in" href=""
-                      >Texto link 02</a
-                    >
-                  </li>
-                </ul>
-              </nav>
-            </article>
-
-            <article class="flex-column gr-3">
-              <header>
-                <p class="gray-color-100">Nossas redes sociais</p>
-              </header>
-              <nav>
-                <ul class="flex-column">
-                  <li class="flex-row align-center gc-2">
-                    <img src="assets/imgs/Instagram.svg" alt="" />
-                    <a class="nav-link transition-ease-in" href="">Instagram</a>
-                  </li>
-                  <li class="flex-row align-center gc-2">
-                    <img src="assets/imgs/Linkedin.svg" alt="" />
-                    <a class="nav-link transition-ease-in" href="">Linkedin</a>
-                  </li>
-                  <li class="flex-row align-center gc-2">
-                    <img src="assets/imgs/YouTube.svg" alt="" />
-                    <a class="nav-link transition-ease-in" href="">YouTube</a>
-                  </li>
-                </ul>
-              </nav>
-            </article>
+            <div class="articles-footer flex-row justify-between gc-5">
+              <article class="flex-column">
+                <header>
+                  <p class="gray-color-100">Lista de páginas</p>
+                </header>
+                <nav>
+                  <ul class="flex-column">
+                    <li>
+                      <a class="nav-link transition-ease-in" href="">Home</a>
+                    </li>
+                    <li>
+                      <a class="nav-link transition-ease-in" href=""
+                        >Diferenciais</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link transition-ease-in" href="">Galeria</a>
+                    </li>
+                  </ul>
+                </nav>
+              </article>
+              <article class="flex-column">
+                <header>
+                  <p class="gray-color-100">Soluções</p>
+                </header>
+                <nav>
+                  <ul class="flex-column">
+                    <li>
+                      <a class="nav-link transition-ease-in" href=""
+                        >Texto link 01</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link transition-ease-in" href=""
+                        >Texto link 02</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link transition-ease-in" href=""
+                        >Texto link 03</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </article>
+              <article class="flex-column">
+                <header>
+                  <p class="gray-color-100">Contato</p>
+                </header>
+                <nav>
+                  <ul class="flex-column">
+                    <li>
+                      <a class="nav-link transition-ease-in" href=""
+                        >Texto link 01</a
+                      >
+                    </li>
+                    <li>
+                      <a class="nav-link transition-ease-in" href=""
+                        >Texto link 02</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </article>
+              <article class="flex-column">
+                <header>
+                  <p class="gray-color-100">Nossas redes sociais</p>
+                </header>
+                <nav class="navigation-social-media">
+                  <ul class="flex-column">
+                    <li class="flex-row align-center gc-2">
+                      <img src="assets/imgs/Instagram.svg" alt="" />
+                      <a class="nav-link transition-ease-in" href=""
+                        >Instagram</a
+                      >
+                    </li>
+                    <li class="flex-row align-center gc-2">
+                      <img src="assets/imgs/Linkedin.svg" alt="" />
+                      <a class="nav-link transition-ease-in" href=""
+                        >Linkedin</a
+                      >
+                    </li>
+                    <li class="flex-row align-center gc-2">
+                      <img src="assets/imgs/YouTube.svg" alt="" />
+                      <a class="nav-link transition-ease-in" href="">YouTube</a>
+                    </li>
+                  </ul>
+                </nav>
+              </article>
+            </div>
           </div>
         </section>
 
         <section>
           <div class="border-top-copyright pt-3">
-            <p>2023 © Todos os direitos reservados. Codeboost</p>
+            <p>
+              2025 © Todos os direitos reservados. Codeboost | Developed by
+              <a
+                class="nav-link transition-ease-in gray-color-300"
+                href="https://github.com/Gabriel-P-Freitas"
+                target="_blank"
+                >Gabriel Pessoa</a
+              >
+            </p>
           </div>
         </section>
       </footer>

@@ -65,11 +65,12 @@
 }
 
 .preenchimento-contraste {
-    padding: 5.5625rem 16.5rem !important;
+    height: 35rem;
 }
 
 .preenchimento-contraste p {
-    font-size: 1.375rem;
+    font-size: clamp(1.125rem, 4vw, 1.375rem);
+    max-width: 80%;
 }
 
 footer figure figcaption {
@@ -81,8 +82,10 @@ footer article header {
 }
 
 footer article,
-footer article ul {
-    row-gap: 32px;
+footer article ul,
+footer>section>div,
+footer .articles-footer {
+    gap: 24px;
 }
 
 .border-top-copyright {

@@ -179,7 +179,7 @@ button {
   height: 100%;
 }
 
-.struct-global nav a.nav-link:hover {
+.struct-global a.nav-link:hover {
   color: var(--pink-10, #f67acb);
   border-bottom: 1px solid var(--gray-100, #f5f6fa);
 }

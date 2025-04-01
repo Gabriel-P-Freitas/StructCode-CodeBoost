@@ -38,6 +38,17 @@
         flex-direction: column;
         align-items: center;
     }
+
+    footer>section>div {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    footer figure figcaption {
+        max-width: 90%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -58,4 +69,15 @@
     .info-hero>.img-hero {
         display: none;
     }
+
+    footer .articles-footer {
+        flex-direction: column;
+    }
+
+    footer .navigation-social-media>ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
