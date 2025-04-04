@@ -13,6 +13,13 @@
 }
 
 @media screen and (max-width: 992px) {
+    .destaque-title::after {
+        max-width: auto;
+        background-position: center bottom;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .insights-reality {
         flex-direction: column;
         align-items: center;

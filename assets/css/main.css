@@ -5,11 +5,52 @@
 
 .hero {
     padding-top: 7rem;
+    position: relative;
+    animation-name: leftToRight;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes leftToRight {
+    from {
+        opacity: 0;
+        left: -150px;
+    }
+
+    to {
+        opacity: 1;
+        left: 0;
+    }
 }
 
 .destaque-title {
     max-width: 48rem;
-    background: url("../imgs/Vector\ 190\ \(Stroke\).svg") no-repeat bottom center;
+    position: relative;
+}
+
+.destaque-title::after {
+    content: '';
+    position: absolute;
+    background: url(../imgs/line-hero.svg) no-repeat left bottom;
+    left: 5.5rem;
+    bottom: -5px;
+    z-index: -1;
+    max-width: 50rem;
+    height: 2rem;
+    animation: lineToRight 1s 2s ease-out 1 both;
+}
+
+@keyframes lineToRight {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
 .hero-text {
@@ -24,6 +65,18 @@
     position: absolute;
     left: 3rem;
     top: 100%;
+    animation-name: arrowToRight;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowToRight {
+    to {
+        left: 4.5rem;
+    }
 }
 
 .img-hero-desktop {
@@ -34,8 +87,22 @@
 
 .img-desktop {
     position: absolute;
-
     z-index: 1;
+    animation: upward 1s ease-in forwards;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+@keyframes upward {
+    from {
+        opacity: 0;
+        bottom: -2rem;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 0;
+    }
 }
 
 .block-pink {
